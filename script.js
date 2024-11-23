@@ -10,5 +10,10 @@ function createStars() {
     star.style.left = Math.random() * 100 + "%";
     container.appendChild(star);
   }
+
 }
 createStars();
+
+
+
+

@@ -25,8 +25,14 @@
   <script src="script.js"></script>
 </body>
 
-<audio autoplay>
+<audio id="audio" autoplay>
   <source src="./Main Agar Kahoon - Om Shanti Om 128 Kbps.mp3" type="audio/mp3">
 </audio>
+<script>
+    document.body.addEventListener('click', function() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    });
+</script>
 
 </html>
